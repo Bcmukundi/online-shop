@@ -1,0 +1,150 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    padding:0;
+    margin:0;
+}
+
+nav{
+    background-color: black;
+    color: lightskyblue;
+    padding: 20px 50px;
+}
+
+.navtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seach{
+    display: flex;
+    align-items: center;
+    background-color:darkslategray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid lightblue;
+    cursor: pointer;
+}
+
+.navbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color:darkgray
+    font-weight 400;
+}
+
+.slider {
+background-color: cadetblue;}
+
+.sliderWrapper {
+    display: flex;
+    width: 500vw;
+
+}
+
+.sliderItem {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderBg {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .sliderImg {
+    z-index: 1;
+  }
+
+.sliderTitle {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    left: 45%;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.sliderPrice{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    border: 1px solid grey;
+}
+
+.buyButton {
+    position: absolute;
+    bottom: 70%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color:blue;
+    border: 1px solid grey;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.sliderItem:nth-child(1) .sliderBg {
+    background-color: #369e62;
+  }
+  .sliderItem:nth-child(2) .sliderBg {
+    background-color: rebeccapurple;
+  }
+  .sliderItem:nth-child(3) .sliderBg {
+    background-color: teal;
+  }
+  .sliderItem:nth-child(4) .sliderBg {
+    background-color: cornflowerblue;
+  }
+  .sliderItem:nth-child(5) .sliderBg {
+    background-color: rgb(124, 115, 80);
+  }
+  
+
+.buyButton:hover {
+    background-color: white;
+    color: blue;
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+    background-color:orange;
+}
+
+.sliderItem:nth-child(2) .sliderPrice {
+    background-color:red;
+}
+
+.sliderItem:nth-child(3) .sliderPrice {
+    background-color: gray;
+}
+
+.sliderItem:nth-child(4) .sliderPrice {
+    background-color: greenyellow;
+}
+
+.sliderItem:nth-child(5) .sliderPrice {
+    background-color: purple;
+}
+    
